@@ -142,3 +142,65 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants section inside activity cards */
+.activity-card .participants {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.activity-card .participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.activity-card .participants ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: block;
+}
+
+.activity-card .participants li {
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* delete button/icon next to participant */
+.participant-delete {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.participant-delete:hover {
+  background: rgba(198,40,40,0.08);
+}
+
+/* small badge for each participant email */
+.activity-card .participant-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #eef3ff;
+  color: #1a237e;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+
+/* when no participants */
+.activity-card .no-participants {
+  font-style: italic;
+  color: #888;
+  font-size: 13px;
+}
